@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import PreviewSlider from './PreviewSlider';
 import Preview from './Preview';
 import './Watch.css';

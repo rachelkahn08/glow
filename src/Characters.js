@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import CharactersNav from './CharactersNav';
 
 class Characters extends Component {
 	constructor(props) {
@@ -8,7 +10,10 @@ class Characters extends Component {
 
 	render() {
 		return (
-			<div>CHAWACTERS</div>
+			<div>
+				CHARACTERS WOO
+				<CharactersNav />
+			</div>
 
 	);}
 }
