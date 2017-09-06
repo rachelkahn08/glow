@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, NavLink } from 'react-router-dom';
 import './Header.css';
+// import Watch from './Watch';
 
 class Header extends Component {
 	render() {
@@ -20,7 +21,7 @@ class Header extends Component {
 			<BrowserRouter>
 				<nav className="navbar">
 					<NavLink to="/Watch">VEG OUT</NavLink>
-					<NavLink to="/characters">BODACIOUS BABES</NavLink>
+					<NavLink to="/Characters">BODACIOUS BABES</NavLink>
 					<NavLink to="/music">SICK BEATS</NavLink>
 					<NavLink to="/idk">THEY TRIPPIN'</NavLink>
 					<NavLink to="/idk2">WHAT'S YOUR DAMAGE?</NavLink>
